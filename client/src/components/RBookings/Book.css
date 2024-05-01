@@ -1,0 +1,70 @@
+.address-form-container {/* CheckoutForm.css */
+
+    .checkout-form-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    
+    .checkout-form-box {
+      background-color: #f5f5f5;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 400px; /* Adjust the width as needed */
+    }
+    
+    .checkout-form {
+      width: 100%;
+    }
+    
+    .checkout-form__title {
+      margin-bottom: 20px;
+    }
+    
+    .checkout-form__input {
+      margin-bottom: 15px;
+    }
+    
+    .checkout-form__checkbox-label {
+      font-size: 0.9rem;
+    }
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .address-form-box {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .address-form {
+    width: 100%;
+  }
+  
+  .address-form__title {
+    margin-bottom: 20px;
+  }
+  
+  .address-form__input {
+    margin-bottom: 15px;
+  }
+  
+  .address-form__input:last-child {
+    margin-bottom: 0;
+  }
+  
+  .address-form__checkbox {
+    margin-top: 10px;
+  }
+  
+  .address-form__checkbox-label {
+    font-size: 0.9rem;
+  }
+  

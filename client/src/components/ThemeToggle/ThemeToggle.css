@@ -1,0 +1,13 @@
+/* CSS */
+.dark-theme {
+    /* Add dark mode styles here */
+  }
+  
+  #sunIcon {
+    display: inline;
+  }
+  
+  #moonIcon {
+    display: none;
+  }
+  

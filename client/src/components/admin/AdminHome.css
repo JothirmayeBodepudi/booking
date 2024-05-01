@@ -1,0 +1,35 @@
+/* AdminHome.css */
+.admin-dashboard {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  flex: 0 0 250px; /* Sidebar width */
+  background-color: #f4f4f4; /* Light grey background */
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1); /* Simple shadow for depth */
+}
+
+.main-content {
+  flex-grow: 1; /* Take up remaining space */
+  padding: 20px;
+  background-color: #fff; /* White background for the content area */
+}
+
+.sidebar ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0;
+}
+
+.sidebar ul li a {
+  display: block; /* Make the links block elements */
+  text-decoration: none; /* Remove underline */
+  color: #333; /* Dark grey text */
+  padding: 10px; /* Padding for spacing */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.sidebar ul li a:hover {
+  background-color: #ddd; /* Light grey background on hover */
+}
